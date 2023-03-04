@@ -1,0 +1,132 @@
+img {
+  height: 40px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(85, 80, 80);
+  border-bottom: 1px solid gray;
+  padding-bottom: 8px;
+}
+
+.desc,
+.stars {
+  margin: 10px 0 20px 0;
+  font-size: 15px;
+}
+
+.place .desc {
+  font-weight: 700;
+  color: red;
+}
+
+.review .desc {
+  color: lime;
+}
+
+.rating .stars {
+  color: gold;
+}
+
+.information .desc {
+  color: royalblue;
+}
+
+.information .username {
+  font-weight: 700;
+  color: salmon;
+}
+
+.form_input label {
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 7px;
+  color: rgb(85, 80, 80);
+}
+
+.form_input input,
+.form_input textarea,
+.form_input select {
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.form_input input,
+.form_input textarea,
+.form_input select {
+  padding: 8px 15px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+.form_input input:focus,
+.form_input textarea:focus,
+.form_input select:focus {
+  outline: none;
+  border: 2px solid rgb(22, 144, 22);
+  padding: 7px 14px;
+}
+
+form button {
+  width: 100%;
+  padding: 7px 0;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: limegreen;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: rgb(89, 209, 89);
+  transition-duration: 0.4s;
+}
+
+.buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.btnLogin {
+  margin-right: 10px;
+}
+
+.btnLogin,
+.btnLogout,
+.btnRegister {
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.btnLogin {
+  background-color: limegreen;
+}
+
+.btnLogout {
+  background-color: rgb(251, 41, 41);
+}
+
+.btnRegister {
+  background-color: gray;
+}
+
+.btnLogin:hover {
+  background-color: rgb(89, 209, 89);
+}
+
+.btnLogout:hover {
+  background-color: rgb(211, 45, 45);
+}
+
+.btnRegister:hover {
+  background-color: rgb(102, 100, 100);
+}

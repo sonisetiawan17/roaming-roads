@@ -1,0 +1,97 @@
+.wrapper {
+  position: absolute;
+  background-color: rgb(167, 166, 166);
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.505);
+  padding: 50px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.titleForm {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.titleForm p {
+  color: #77e00d;
+}
+
+.titleForm img {
+  height: 30px;
+}
+
+.form_login label {
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  color: gray;
+}
+
+.form_login input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid rgb(212, 209, 209);
+  border-radius: 5px;
+  padding: 8px 14px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.307);
+  backdrop-filter: blur(10px);
+  opacity: 0.8;
+}
+
+.form_login input:focus {
+  border: 2px solid limegreen;
+  padding: 7px 13px;
+  box-shadow: none;
+  transition: 0.4s;
+}
+
+.loginAccBtn {
+  background-color: limegreen;
+  padding: 10px;
+  margin-top: 20px;
+  transition: 0.4s;
+}
+
+.loginAccBtn:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: rgb(89, 209, 89);
+  transition: 0.4s;
+}
+
+.btnCloseModal {
+  position: absolute;
+  font-size: 20px;
+  opacity: 0.4;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.btnCloseModal:hover {
+  color: red;
+}
+
+.alert {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
